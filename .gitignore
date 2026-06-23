@@ -1,0 +1,107 @@
+#################################################
+# Python
+#################################################
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build & packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+#################################################
+# MATLAB / Simulink
+#################################################
+
+# Autosave
+*.asv
+*.m~
+
+# Simulink cache
+*.slxc
+
+# Generated code and build folders
+slprj/
+sfprj/
+sccprj/
+codegen/
+work/
+
+*_ert_rtw/
+*_grt_rtw/
+*_rtw/
+
+#################################################
+# C / Embedded
+#################################################
+
+# Object files
+*.o
+*.obj
+
+# Libraries
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.elf
+*.hex
+*.bin
+
+# Debug symbols
+*.map
+*.lst
+*.pdb
+*.dSYM/
+
+#################################################
+# CrossCore Embedded Studio
+#################################################
+
+# Build outputs
+Debug/
+Release/
+
+# Workspace metadata
+.metadata/
+
+#################################################
+# VS Code
+#################################################
+
+.vscode/
+
+#################################################
+# Logs and temporary files
+#################################################
+
+*.log
+*.tmp
+*.bak
+
+#################################################
+# Operating System Files
+#################################################
+
+.DS_Store
+Thumbs.db
+Desktop.ini
